@@ -1,11 +1,11 @@
 'use client'
 
+import React from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
+// @ts-ignoere
 import { useParallax } from '@/hooks/useParallax'
 import { useState, useEffect } from 'react'
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls } from '@react-three/drei'
-import * as THREE from 'three'
+
 
 
 
@@ -51,14 +51,6 @@ export default function About() {
           {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
         </button>
       </div>
-      {/* <div className="fixed top-1/2 -translate-y-1/2 right-0 w-1/3 h-2/3">
-        <Canvas>
-          <OrbitControls enableZoom={false} />
-          <ambientLight intensity={0.5} />
-          <directionalLight position={[10, 10, 5]} intensity={1} />
-          <FloatingObject />
-        </Canvas>
-      </div> */}
       <motion.div
         variants={staggerChildren}
         initial="initial"

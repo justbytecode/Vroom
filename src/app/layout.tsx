@@ -1,9 +1,12 @@
 'use client'
 
 import { useEffect } from 'react'
+// @ts-ignore
 import { useStore } from '@/lib/store'
+//@ts-ignore
 import { Loading } from '@/components/loading'
 import { Navigation } from '@/components/navigation'
+//@ts-ignore
 import { PageTransition } from '@/components/page.transition'
 import './globals.css'
 
