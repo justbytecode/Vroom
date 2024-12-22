@@ -9,7 +9,7 @@ export default function Home() {
   const [audioPlaying, setAudioPlaying] = useState(false)
 
   useEffect(() => {
-    const audio = new Audio('/audio1.mp3')
+    const audio = new Audio('/one.mp3')
     audio.loop = true
 
     const playAudio = () => {
