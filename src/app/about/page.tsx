@@ -2,9 +2,8 @@
 
 import React from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
-// @ts-ignoere
-import { useParallax } from '@/hooks/useParallax'
 import { useState, useEffect } from 'react'
+import { useParallax } from '@/hooks/useParallax'
 
 
 
