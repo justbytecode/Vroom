@@ -7,7 +7,7 @@ import { useStore } from '@/lib/store'
 import { Loading } from '@/components/loading'
 import { Navigation } from '@/components/navigation'
 //@ts-ignore
-import { PageTransition } from '@/components/page.transition'
+import { PageTransition } from '@/components/page-transition'
 import './globals.css'
 
 export default function RootLayout({
