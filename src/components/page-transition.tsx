@@ -1,7 +1,6 @@
 'use client'
 
 import { motion, AnimatePresence } from 'framer-motion'
-import { useStore } from '@/lib/store'
 import { usePathname } from 'next/navigation'
 
 export function PageTransition({ children }: { children: React.ReactNode }) {
