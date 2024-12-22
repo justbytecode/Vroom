@@ -5,9 +5,6 @@ import { motion, useScroll, useSpring } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { useParallax } from '@/hooks/useParallax'
 
-
-
-
 export default function About() {
   const [theme, setTheme] = useState('dark')
   const parallaxY = useParallax(300)
@@ -37,7 +34,7 @@ export default function About() {
 
   return (
     <div className={`min-h-screen w-full ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} p-24 pt-32 transition-colors duration-500`}>
-      {/* <CustomCursor /> */}
+      
       <motion.div
         style={{ scaleX }}
         className="fixed top-0 left-0 right-0 h-2 bg-violet-700 origin-left z-50"
